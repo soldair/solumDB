@@ -1,0 +1,14 @@
+solumDB version 0.0
+
+== WHAT IT IS ==
+
+* handles routing queries to the right connections
+* handles reconnecting if server has gone away - very helpful for long running scripts
+* only connects if it has to - so if you make a sweet caching setup and you dont need the db at 
+  all it wont connect
+* this is a db class made to be a drop in replacement for low performance orm nightmares
+  if you have built all of your model logic in orm specific db class files i feel sorry for you =(
+
+== WHAT IT IS NOT ==
+
+`
